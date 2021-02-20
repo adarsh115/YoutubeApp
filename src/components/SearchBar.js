@@ -16,6 +16,7 @@ class SearchBar extends Component {
     e.preventDefault();
 
     // todo make sure we call callback from parent
+    this.props.onFormSubmit(this.state.term);
   };
 
   render() {
@@ -36,7 +37,8 @@ class SearchBar extends Component {
               style={{
                 border: "0.1px solid grey",
                 marginTop: "5px",
-                padding: "3px"
+                padding: "3px",
+                width: "calc(150px + 10vw)"
               }}
               onChange={this.handleInputChange}
               type="text"
