@@ -5,9 +5,16 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "@mapbox/react-code-snippet": "0.1.23",
+    "antd": "4.12.3",
     "react": "17.0.1",
+    "react-bootstrap": "1.5.0",
+    "react-code-producer": "0.0.5",
+    "react-code-snippet": "0.6.13",
     "react-dom": "17.0.1",
-    "react-scripts": "4.0.0"
+    "react-scripts": "4.0.0",
+    "semantic-ui": "2.4.2",
+    "semantic-ui-react": "2.0.3"
   },
   "devDependencies": {
     "typescript": "4.1.3"
